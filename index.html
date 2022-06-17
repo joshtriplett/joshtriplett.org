@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Josh Triplett</title>
+    <meta charset="utf-8">
+    <style>
+      body { margin: 0 auto; max-width: 50rem; }
+      #headshot { float: right; margin-left: 2rem; }
+      nav { background-color: #b0c4de; color: black; }
+      nav h1 { display: inline-block; margin: 0rem 1rem 0rem 1rem; padding: 0.5rem 0; vertical-align: middle; }
+      nav a { display: inline-block; font-size: larger; margin: 0 0.6rem; padding: 0.25rem 0; text-decoration: none; vertical-align: middle; }
+      nav a * { vertical-align: middle; }
+      nav img { height: 1.2rem; margin: 0 0.25rem; }
+      p { margin: 1rem; }
+      h2 { padding-left: 1rem; max-width: 50rem; border-bottom: 1px solid black; }
+      .bib li { margin-top: 0.5rem; }
+      @media (max-width: 800px) {
+        #headshot { float: none; margin-left: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Josh Triplett</h1>
+      <a href="https://twitter.com/josh_triplett"><img src="twitter.svg"><span>Twitter</span></a>
+      <a href="https://github.com/joshtriplett"><img src="github.svg"><span>GitHub</span></a>
+    </nav>
+    <img id="headshot" src="josh-256.jpg" height="256" width="256">
+    <p>In July 2020, I started working on the build service I've wanted for 16
+    years: no change to your workflow, cooperates with existing build systems,
+    handles multi-stage builds, works with any language, and the first version
+    will support offloading builds to fast cloud systems to compile 12-120x
+    faster than a developer laptop. My goal is to make waiting on a build as
+    antiquated as the sound of a dial-up modem.
+    <p>I'm a developer on the Rust project. I co-lead the Rust language team,
+    and work on the Rust library team and the Cargo package manager. I care
+    about building welcoming, inclusive communities that lift people up. I love
+    building solutions to systemic problems.
+    <p>I'm seeking
+    <a href="https://github.com/sponsors/joshtriplett/">sponsorship</a> to
+    continue working on Rust and build systems full-time.
+
+    <h2>Publications and Presentations</h2>
+    <ul class="bib">
+      <li><a href="https://linuxplumbersconf.org/event/7/contributions/804/">Barriers to in-tree Rust</a>. Linux Plumbers Conference, August 2020. With John Baublitz, Nick Desaulniers, Alex Gaynor, Geoffrey Thomas, and Miguel Ojeda. <a href="https://lwn.net/Articles/829858/">Reported on LWN</a>.
+      <li><a href="https://www.youtube.com/watch?v=9py3lqYoihc">Extending WASI and wasmtime</a>. WebAssembly SF, December 2019.
+      <li><a href="https://www.youtube.com/watch?v=A_diEEpAfpM">Build your own virtual machine with <code>/dev/kvm</code> and Rust</a>. BangBangCon, May 2019.
+      <li><a href="https://www.youtube.com/watch?v=l9hM0h6IQDo">Intel and Rust: the Future of Systems Programming</a>. Intel Open Source Technology Summit, May 2019.
+      <li><a href="https://www.youtube.com/watch?v=AN9FoZgLcFg">The Rust 2018 Module System</a>. RustConf, August 2019.
+      <li><a href="https://www.youtube.com/watch?v=zfKqKWIa5WU">Firmware Transparency: Open All the Way Down</a>. Embedded Linux Conference Europe (ELCE), October 2018.
+      <li>Bits, Gates, Traces, and Pins: Copyleft and Licensing in Open Hardware. FSFE Legal and Licensing Workshop, April 2017. With Jessica Marz.
+      <li><a href="https://www.youtube.com/watch?v=MvNM1jKidaQ">Bits, Gates, Traces, and Pins: Copyleft and Licensing in Open Hardware</a>. FOSDEM, February 2017. With Jessica Marz.
+      <li><a href="https://linuxplumbersconf.org/2016/ocw/proposals/3843.html">git-series: Tracking the History of History</a>. Linux Plumbers Conference, November 2016.
+      <li><a href="https://www.youtube.com/watch?v=U8Gl3RTXf88">In order to form a more perfect union</a>. RustConf, September 2016.
+      <li><a href="https://lcccna2016.sched.com/event/7JVs/versions-all-the-way-down-versioning-commits-and-patches-with-git-series-josh-triplett-intel">Versions all the way down: Versioning commits and patches with git-series</a>. LinuxCon North America, August 2016.
+      <li><a href="https://www.youtube.com/watch?v=AlkKvetGFSk">Networking without an OS</a>. PyCon, June 2016.
+      <li><a href="https://lwn.net/Articles/658511/">Using the KVM API</a>. Linux Weekly News, September 2015.
+      <li><a href="https://lccocc2015.sched.com/event/641f2cec3cc95f9ea4961d088147e273">Everything's a File Descriptor</a>. Linux Plumbers Conference / LinuxCon North America, August 2015.
+      <li><a href="https://lwn.net/Articles/655992/">Demystifying EFI and ACPI via Python and BITS</a>. LinuxCon North America, August 2015.
+      <li><a href="https://www.youtube.com/watch?v=bYQ_lq5dcvM">Porting Python to run without an OS</a>. PyCon, April 2015.
+      <li><a href="https://linuxplumbersconf.org/2014/ocw/sessions/1809">Linux Kernel Tinification</a>. Linux Plumbers Conference / LinuxCon Europe, October 2014.
+      <li><a href="https://events.static.linuxfound.org/sites/events/files/slides/chrome.pdf">Chrome OS Internals</a>. LinuxCon Europe, October 2014.
+      <li>How to Create Differentiated Experiences on Chrome. Intel Developer Forum, September 2014.
+      <li>Demystifying EFI and ACPI with Python and the BIOS Implementation Test Suite. Intel Developer Forum, September 2014.
+      <li><a href="https://www.youtube.com/watch?v=XHhtSO04uZo">A glimpse into a systemd future</a>. DebConf, August 2014.
+      <li>dconf in a git $HOME. DebConf, August 2014.
+      <li><a href="https://lwn.net/Articles/608945/">Linux Kernel Tinification</a>. Linux Kernel Summit, August 2014.
+      <li>Making "Intel Inside" Matter for Chrome OS. Open Source Technology Summit, April 2014.
+      <li>Demystifying EFI and ACPI via Python and BITS. Open Source Technology Summit, April 2014.
+      <li><a href="https://lwn.net/Articles/572099/">Constructing correct RCU data structures</a>. Linux Kernel Summit, October 2013.
+      <li>It's All About The Browser: Enabling Platform Features On Chrome OS. Intel Developer Forum, September 2013. With Shyam Sundararaman.
+      <li><a href="https://www.youtube.com/watch?v=3-vAh9uDItY">git: not just for source code anymore</a>. linux.conf.au, January 2013.
+      <li><a href="https://www.youtube.com/watch?v=36QIepyUuhg">BITS: Testing BIOS and ACPI with Python in GRUB</a>. linux.conf.au, January 2012.
+      <li><a href="https://linuxplumbersconf.org/2011/ocw/sessions/867">BITS: Testing BIOS/platform issues with Python in a bootloader</a>. Linux Plumbers Conference, September 2011.
+
+      <li><a href="https://linuxplumbersconf.org/2011/ocw/sessions/441">Reproducible builds and infrastructure</a>. Linux Plumbers Conference, September 2011. With Jamey Sharp.
+      <li><a href="https://www.youtube.com/watch?v=AyWvrCBFT94">Composing Software Systems</a>. TechIgnite PDX, September 2011.
+      <li><a href="https://web.archive.org/web/20111103145210/http://opensourcebridge.org/sessions/626">Composing Software Systems</a>. Open Source Bridge, June 2011. With Jamey Sharp.
+      <li><a href="https://web.archive.org/web/20120505094655/http://opensourcebridge.org/sessions/291">Unlikely tools for pair programming</a>. Open Source Bridge, June 2010. With Jamey Sharp.
+      <li><a href="https://web.archive.org/web/20120505085939/http://opensourcebridge.org/sessions/290">Lazy web-crawling and graph magic in Haskell</a>. Open Source Bridge, June 2010. With Jamey Sharp.
+      <li><a href="https://blog.linuxplumbersconf.org/ocw/proposals/103">Painless kernel - removing the HZ</a>. Linux Plumbers Conference, September 2009.
+    </ul>
+
+    <h2>Research</h2>
+    <p>I completed a PhD in Computer Science at Portland State University, on
+    scalable concurrent programming techniques, based on
+    <a href="http://www.rdrop.com/users/paulmck/RCU/">Read-Copy Update (RCU)</a>
+
+    <ul class="bib">
+      <li><a href="https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1496&context=open_access_etds">Relativistic Causal Ordering - A Memory Model for Scalable Concurrent Data Structures</a>. PhD dissertation, Portland State University, March 2012.
+      <li><a href="https://www.usenix.org/conference/usenixatc11/resizable-scalable-concurrent-hash-tables-relativistic-programming">Resizable, Scalable, Concurrent Hash Tables via Relativistic Programming</a>. Proceedings of the 2011 USENIX Annual Technical Conference, 2011. With Paul E. McKenney and Jonathan Walpole.
+      <li><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.422.951&rep=rep1&type=pdf">Scalable Concurrent Hash Tables via Relativistic Programming</a>. ACM Operating Systems Review, 44(3), July 2010. With Paul E. McKenney, and Jonathan Walpole.
+      <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.395.1121&rep=rep1&type=pdf">Why The Grass May Not Be Greener On The Other Side: A Comparison of Locking vs. Transactional Memory</a>. ACM Operating Systems Review, 44(3), July 2010. With Paul E. McKenney, Maged M. Michael, and Jonathan Walpole.
+      <li><a href="https://blog.linuxplumbersconf.org/2009/slides/Josh-Triplett-rphash.pdf">Scalable Concurrent Hash Tables via Relativistic Programming</a>. Linux Plumbers Conference, September 2009.
+      <li>The read-copy-update mechanism for supporting real-time applications on shared-memory multiprocessor systems with Linux. IBM Systems Journal, 47(2), April 2008. With Dinakar Guniguntala, Paul E. McKenney, and Jonathan Walpole.
+    </ul>
+
+    <h2>Past Projects</h2>
+    <p>I co-maintained the
+    <a href="https://xcb.freedesktop.org/">X C Binding (XCB)</a> and the Xlib
+    library. I developed the XML-XCB format to describe the X Window System
+    protocol. I also worked on other Xorg projects at
+    <a href="https://freedesktop.org">freedesktop.org</a>.
+
+    <p>I maintained the <a href="https://sparse.docs.kernel.org/">Sparse
+      semantic parser and static analysis tool for C</a> for several years,
+    before passing it on to Christopher Li.
+
+    <p>I worked on the office suite now known as
+    <a href="https://www.libreoffice.org/">LibreOffice</a>. Long ago, my first
+    major Open Source contribution was to remove the need for Java in its build
+    system, back when Java was still proprietary.
+
+    <p>I ported Python and ACPICA to GRUB2, to provide an interactive firmware
+    exploration/test environment, including a Python network stack for UEFI, and
+    the ability to call UEFI functions from Python using libffi and ctypes.
+
+    <p>I've done some work on the
+    <a href="https://www.kernel.org/">Linux kernel</a>. I originated the Linux
+    "tinification" effort to reduce the size of the kernel.
+
+    <p>I previously worked for Intel as a Principal Engineer. I was Intel's
+    lead software architect for Chrome OS.
+
+    <p>Before that, I worked on Real-Time Linux and RCU, for IBM.
+
+    <p>I co-developed the first resource monitoring support for the Xen
+    hypervisor, as well as the <code>xentop</code> (AKA <code>xm top</code>)
+    tool built atop it.
+
+    <p>I launched Linux-powered rockets with the
+    <a href="https://www.pdxaerospace.org/">Portland State Aerospace Society</a>.
